@@ -1,0 +1,131 @@
+Index: name/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/name/.idea/.gitignore b/name/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision 067055d07e3cde2ef2545dc248cb682c7429f3e8)
++++ b/name/.idea/.gitignore	(revision 067055d07e3cde2ef2545dc248cb682c7429f3e8)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: name/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/name/.idea/misc.xml b/name/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision 067055d07e3cde2ef2545dc248cb682c7429f3e8)
++++ b/name/.idea/misc.xml	(revision 067055d07e3cde2ef2545dc248cb682c7429f3e8)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: name/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/name/.idea/modules.xml b/name/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(revision 067055d07e3cde2ef2545dc248cb682c7429f3e8)
++++ b/name/.idea/modules.xml	(revision 067055d07e3cde2ef2545dc248cb682c7429f3e8)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/name.iml" filepath="$PROJECT_DIR$/name.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: name/.idea/runConfigurations.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/name/.idea/runConfigurations.xml b/name/.idea/runConfigurations.xml
+new file mode 100644
+--- /dev/null	(revision 067055d07e3cde2ef2545dc248cb682c7429f3e8)
++++ b/name/.idea/runConfigurations.xml	(revision 067055d07e3cde2ef2545dc248cb682c7429f3e8)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RunConfigurationProducerService">
++    <option name="ignoredProducers">
++      <set>
++        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
++      </set>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: name/name.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/name/name.iml b/name/name.iml
+new file mode 100644
+--- /dev/null	(revision 067055d07e3cde2ef2545dc248cb682c7429f3e8)
++++ b/name/name.iml	(revision 067055d07e3cde2ef2545dc248cb682c7429f3e8)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: name/src/Fist/FirstClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/name/src/Fist/FirstClass.java b/name/src/Fist/FirstClass.java
+new file mode 100644
+--- /dev/null	(revision 067055d07e3cde2ef2545dc248cb682c7429f3e8)
++++ b/name/src/Fist/FirstClass.java	(revision 067055d07e3cde2ef2545dc248cb682c7429f3e8)
+@@ -0,0 +1,7 @@
++package Fist;
++
++public class FirstClass {
++    public static void main(String[] args) {
++        System.out.println("1");
++    }
++}
+Index: name/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/name/.idea/vcs.xml b/name/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision 0107190ade729f783627840540027ded8c919d1f)
++++ b/name/.idea/vcs.xml	(revision 0107190ade729f783627840540027ded8c919d1f)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
